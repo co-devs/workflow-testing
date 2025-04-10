@@ -1,0 +1,10 @@
+version: "1.0"
+name: "workflow-testing"
+description: "A simple YAML manifest for workflow testing"
+services:
+  - name: "service1"
+    type: "web"
+    port: 8080
+  - name: "service2"
+    type: "database"
+    port: 5432
