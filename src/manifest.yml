@@ -8,3 +8,6 @@ services:
   - name: "service2"
     type: "database"
     port: 5432
+  - name: "service3"
+    type: "cache"
+    port: 6379
