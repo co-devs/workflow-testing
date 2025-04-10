@@ -2,6 +2,10 @@ name: Validate Manifest
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+    branches:
+      - main
+    paths:
+      - src/manifest.yml
 
 jobs:
   validate-yaml:
