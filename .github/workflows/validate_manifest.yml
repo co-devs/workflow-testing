@@ -4,8 +4,6 @@ on:
     types: [opened, synchronize, reopened]
     branches:
       - main
-    paths:
-      - src/manifest.yml
 
 jobs:
   validate-yaml:
