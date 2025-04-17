@@ -1,4 +1,4 @@
-name: Publish Extension
+name: Manually Publish Extension
 
 on: workflow_dispatch
 
