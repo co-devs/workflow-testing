@@ -2,7 +2,7 @@ name: Validate Manifest
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-    paths: **/manifest.json
+    paths: [**/manifest.json]
 
 jobs:
   validate-manifest:
