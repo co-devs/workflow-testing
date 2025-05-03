@@ -3,5 +3,5 @@
     "version": "1.0",
     "manifest_version": 3,
     "description": "test",
-    "test": "more testing"
+    "test": "more testing because details"
 }
