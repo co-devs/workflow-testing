@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate JSON file
-        run: jq . manifest.json > /dev/null || (echo "Invalid JSON" && exit 1)
+        run: jq . ./manifest.json > /dev/null || (echo "Invalid JSON" && exit 1)
       - name: Validate Required Fields
         run: |
-          jq -e '.name and .version and .manifest_version' manifest.json > /dev/null || (echo "Missing required fields in manifest.json" && exit 1)
+          jq -e '.name and .version and .manifest_version' ./manifest.json > /dev/null || (echo "Missing required fields in manifest.json" && exit 1)
