@@ -1,5 +1,7 @@
 {
     "name": "test",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "description": "test",
+    "test": "more testing because details are hard.  Also how did I not notice that this file is in src/"
 }
